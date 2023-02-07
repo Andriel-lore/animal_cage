@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'animal_cage_Example' do
+  pod 'animal_cage', :path => '../'
+
+  target 'animal_cage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
