@@ -1,0 +1,16 @@
+PODS:
+  - animal_cage (0.1.0)
+
+DEPENDENCIES:
+  - animal_cage (from `../`)
+
+EXTERNAL SOURCES:
+  animal_cage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  animal_cage: 83c241667622ddb4d81f97979a1589a14c9869a2
+
+PODFILE CHECKSUM: 74e771249f1f133473d529da48cdcdecb23153dd
+
+COCOAPODS: 1.11.3

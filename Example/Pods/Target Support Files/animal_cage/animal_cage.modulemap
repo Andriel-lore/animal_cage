@@ -1,0 +1,6 @@
+framework module animal_cage {
+  umbrella header "animal_cage-umbrella.h"
+
+  export *
+  module * { export * }
+}
