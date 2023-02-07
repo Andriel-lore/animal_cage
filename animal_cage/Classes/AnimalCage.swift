@@ -1,7 +1,7 @@
 
 import dog
 
-public class Cage {
+public class AnimalCage {
     
     
     public init(){}

@@ -22,7 +22,7 @@
   "swift_versions": "5.0",
   "dependencies": {
     "dog": [
-      "0.2.0"
+
     ]
   },
   "swift_version": "5.0"

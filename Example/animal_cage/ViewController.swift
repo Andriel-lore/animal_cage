@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import dog
+import animal_cage
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        _ = Dog()
+        _ = AnimalCage()
     }
 
     override func didReceiveMemoryWarning() {
