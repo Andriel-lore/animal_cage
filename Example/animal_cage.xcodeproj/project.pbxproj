@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011D8A8EA0ECFA4D487B908E /* animal_cage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = animal_cage.podspec; path = ../animal_cage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		011D8A8EA0ECFA4D487B908E /* animal_cage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = animal_cage.podspec; path = ../animal_cage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50A57D20C93764BE48D524F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* animal_cage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animal_cage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -292,10 +292,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-animal_cage_Example/Pods-animal_cage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/animal_cage/animal_cage.framework",
+				"${BUILT_PRODUCTS_DIR}/dog/dog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/animal_cage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dog.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

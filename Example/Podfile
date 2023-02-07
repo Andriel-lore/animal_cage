@@ -5,6 +5,7 @@ source 'https://github.com/Andriel-lore/cocoapods.git'
 platform :ios, '10.0'
 
 target 'animal_cage_Example' do
+  pod 'dog' ,'0.2.0'
   pod 'animal_cage', :path => '../'
 
   target 'animal_cage_Tests' do

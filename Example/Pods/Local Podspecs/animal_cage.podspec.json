@@ -1,9 +1,9 @@
 {
   "name": "animal_cage",
   "version": "0.1.0",
-  "summary": "A short description of animal_cage.",
+  "summary": "Bla bla",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/109217320/animal_cage",
+  "homepage": "https://github.com/Andriel-lore/animal_cage",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "109217320": "adiel.botbol@devalore.com"
   },
   "source": {
-    "git": "https://github.com/109217320/animal_cage.git",
+    "git": "https://github.com/Andriel-lore/animal_cage.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "animal_cage/Classes/**/*"
+  "source_files": "animal_cage/Classes/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "dog": [
+      "0.2.0"
+    ]
+  },
+  "swift_version": "5.0"
 }
