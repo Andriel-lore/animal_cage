@@ -1,14 +1,14 @@
 PODS:
-  - animal_cage (0.1.0):
-    - dog
-  - dog (0.2.0)
+  - animal_cage (0.3.0):
+    - dog (= 0.5.0)
+  - dog (0.5.0)
 
 DEPENDENCIES:
   - animal_cage (from `../`)
-  - dog
+  - dog (= 0.5.0)
 
 SPEC REPOS:
-  https://github.com/Andriel-lore/cocoapods:
+  https://github.com/Andriel-lore/cocoapods.git:
     - dog
 
 EXTERNAL SOURCES:
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  animal_cage: ed9af5fb18e71b6ed5a0e13af2f99d860016bd8e
-  dog: 5d2a3c89dad53c5da21b53c4e525b957d2d5d860
+  animal_cage: 412e7b821b238a9eba721b8be7a2a19046ce2ac3
+  dog: 8ad1c93aab3edbfb461d322713923aab88270b03
 
-PODFILE CHECKSUM: f978009b1b99dde6248ec3e71ce8f1e9ddf8fbb6
+PODFILE CHECKSUM: a1b3699d21b178ad1b7ef396e375219aa5956a8a
 
 COCOAPODS: 1.11.3

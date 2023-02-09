@@ -1,6 +1,6 @@
 {
   "name": "animal_cage",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Bla bla",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Andriel-lore/animal_cage",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Andriel-lore/animal_cage.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,7 +22,7 @@
   "swift_versions": "5.0",
   "dependencies": {
     "dog": [
-
+      "0.5.0"
     ]
   },
   "swift_version": "5.0"
