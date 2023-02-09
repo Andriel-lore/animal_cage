@@ -16,5 +16,10 @@ public class AnimalCage {
     public func bla2(){
         
     }
+    public func bla3(){
+        
+    }
+    
+    
 }
 
